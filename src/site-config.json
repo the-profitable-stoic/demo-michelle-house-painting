@@ -1,0 +1,560 @@
+{
+  "business": {
+    "name": "Michelle House Painting",
+    "phone": "+14634229422",
+    "category": "house painter",
+    "city": "Indianapolis",
+    "state": "IN"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-mountain-bold",
+      "categoryGroup": "roofing",
+      "name": "Mountain Bold",
+      "recipeFile": "roofing/mountain-bold.astro",
+      "colors": {
+        "primary": "#1A3A52",
+        "primaryDark": "#0F2436",
+        "primaryLight": "#C8DDE8",
+        "secondary": "#2D5F7C",
+        "accent": "#FFC600",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1A3A52",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Indianapolis' Premier House Painting",
+      "heroSubline": "Transforming homes across Indianapolis with expert painting services. Get a free quote today!",
+      "aboutTitle": "Your Trusted Indianapolis Painting Partner",
+      "aboutText": [
+        "Michelle House Painting started with a simple goal: to provide Indianapolis homeowners with exceptional painting services and unparalleled customer care. We're not just painters; we're craftsmen dedicated to enhancing the beauty and value of your home.",
+        "Our approach is rooted in meticulous preparation, premium materials, and a commitment to exceeding expectations. We treat every project, from a single room to an entire house, with the same level of care and attention to detail.",
+        "As a local Indianapolis business, we're invested in our community. We believe in giving back through charitable work and supporting local initiatives. When you choose Michelle House Painting, you're supporting a business that cares about Indianapolis."
+      ],
+      "valueProps": [
+        {
+          "title": "Experienced Professionals",
+          "description": "Our team has decades of combined experience painting Indianapolis homes, understanding the unique challenges of our climate and housing stock."
+        },
+        {
+          "title": "Quality Materials",
+          "description": "We use only premium paints and materials from trusted brands to ensure a long-lasting, beautiful finish that can withstand Indiana's weather."
+        },
+        {
+          "title": "Detailed Preparation",
+          "description": "Proper preparation is key to a flawless paint job. We meticulously prepare surfaces to ensure optimal adhesion and a smooth, even finish."
+        },
+        {
+          "title": "Exceptional Customer Service",
+          "description": "From initial consultation to final walkthrough, we're committed to providing a seamless and stress-free experience."
+        }
+      ],
+      "ctaHeadline": "Ready to Transform Your Home?",
+      "ctaSubline": "Contact Michelle House Painting today for a free estimate and let us bring your vision to life."
+    },
+    "services": [
+      {
+        "slug": "interior-painting",
+        "name": "Interior Painting",
+        "shortDescription": "Transform your living spaces with our professional interior painting services.",
+        "description": "Michelle House Painting specializes in interior painting services that revitalize your home's aesthetic appeal. We understand that the interior of your home is a reflection of your personal style, and we're dedicated to helping you achieve the perfect look. \n\nOur process begins with a thorough assessment of your space, including identifying any imperfections like cracks, holes, or water damage. We meticulously prepare all surfaces by cleaning, sanding, and priming to ensure a smooth and even paint application. We then apply premium-quality paints in your chosen colors and finishes, paying close attention to detail to achieve crisp lines and flawless coverage. \n\nWhether you're looking to refresh a single room or repaint your entire home, we have the expertise and resources to deliver exceptional results. We work with a variety of paint types, including low-VOC options for environmentally conscious homeowners. Our team is skilled in applying various techniques, from standard wall painting to more intricate finishes like faux painting and accent walls. We protect your belongings throughout the process, covering furniture and flooring to prevent any damage. After the job is complete, we conduct a thorough cleanup, leaving your home looking refreshed and beautiful.",
+        "process": [
+          "Step 1: Consultation and Color Selection - We'll discuss your vision and help you choose the perfect colors for your space.",
+          "Step 2: Surface Preparation - We'll meticulously prepare surfaces by cleaning, sanding, and priming.",
+          "Step 3: Painting - We'll apply premium-quality paints with precision and care.",
+          "Step 4: Final Inspection and Cleanup - We'll ensure your satisfaction and leave your home spotless."
+        ],
+        "benefits": [
+          "Enhance the beauty and value of your home",
+          "Create a personalized living space",
+          "Improve air quality with low-VOC paints",
+          "Protect your walls from wear and tear"
+        ],
+        "faq": [
+          {
+            "question": "How long does interior painting typically take?",
+            "answer": "The duration depends on the size and complexity of the project, but we'll provide a detailed timeline during the consultation. A single room might take 1-2 days, while an entire house could take a week or more."
+          },
+          {
+            "question": "Do you offer color consultation services?",
+            "answer": "Yes, we offer color consultation services to help you choose the perfect colors for your home. We can provide expert advice on color palettes, trends, and how colors interact with light and space."
+          },
+          {
+            "question": "What type of paint do you use?",
+            "answer": "We use only premium-quality paints from trusted brands like Sherwin-Williams and Benjamin Moore. We also offer low-VOC options for environmentally conscious homeowners."
+          }
+        ]
+      },
+      {
+        "slug": "exterior-painting",
+        "name": "Exterior Painting",
+        "shortDescription": "Protect and beautify your home with our professional exterior painting services.",
+        "description": "Michelle House Painting understands the unique challenges Indianapolis homes face. From harsh winters to humid summers, your home's exterior needs protection. Our exterior painting services are designed to withstand the elements and enhance your home's curb appeal.\n\nWe begin with a thorough inspection of your home's exterior, identifying any areas of damage, such as peeling paint, wood rot, or cracks in the siding. We then prepare the surfaces by power washing, scraping, and sanding to ensure proper adhesion. We apply high-quality primers and paints that are specifically formulated for exterior use, providing long-lasting protection against the elements.\n\nOur team is experienced in painting various exterior surfaces, including wood, vinyl, brick, and stucco. We pay close attention to detail, ensuring that all trim, doors, and windows are properly painted and sealed. We also offer color consultation services to help you choose the perfect colors to complement your home's architecture and landscaping. We take pride in our workmanship and strive to exceed your expectations, delivering a beautiful and durable exterior paint job that will protect your home for years to come. We understand the importance of proper preparation, especially with Indianapolis' freeze-thaw cycles that can wreak havoc on paint jobs if not done correctly. We pay extra attention to sealing and caulking to prevent moisture intrusion and extend the life of your paint.",
+        "process": [
+          "Step 1: Inspection and Preparation - We'll assess your home's exterior and prepare surfaces for painting.",
+          "Step 2: Priming - We'll apply a high-quality primer to ensure proper adhesion.",
+          "Step 3: Painting - We'll apply premium exterior paints with precision and care.",
+          "Step 4: Final Inspection and Cleanup - We'll ensure your satisfaction and leave your property clean."
+        ],
+        "benefits": [
+          "Protect your home from the elements",
+          "Enhance your home's curb appeal",
+          "Increase your home's value",
+          "Prevent wood rot and other damage"
+        ],
+        "faq": [
+          {
+            "question": "How often should I repaint my home's exterior?",
+            "answer": "Typically, you should repaint your home's exterior every 5-10 years, depending on the climate and the type of paint used. Homes in Indianapolis may need more frequent painting due to harsh winters and humid summers."
+          },
+          {
+            "question": "What type of paint do you use for exterior painting?",
+            "answer": "We use high-quality exterior paints from trusted brands like Sherwin-Williams and Benjamin Moore that are specifically formulated to withstand the elements."
+          },
+          {
+            "question": "Do you offer a warranty on your exterior painting services?",
+            "answer": "Yes, we offer a warranty on our exterior painting services to ensure your peace of mind. The length of the warranty depends on the specific project and the type of paint used."
+          }
+        ]
+      },
+      {
+        "slug": "cabinet-refinishing",
+        "name": "Cabinet Refinishing",
+        "shortDescription": "Update your kitchen or bathroom with our professional cabinet refinishing services.",
+        "description": "Instead of replacing outdated or worn cabinets, Michelle House Painting offers budget-friendly cabinet refinishing services. We can transform your kitchen or bathroom by refinishing your existing cabinets, saving you time and money. \n\nOur process begins with removing the cabinet doors and drawers and thoroughly cleaning and sanding all surfaces. We then apply a high-quality primer and paint or stain in your chosen color and finish. We use durable, moisture-resistant products to ensure a long-lasting and beautiful finish. We can also update your hardware, such as knobs and pulls, to further enhance the look of your cabinets.\n\nCabinet refinishing is a cost-effective way to update your kitchen or bathroom without the hassle and expense of a full remodel. It's also an environmentally friendly option, as it reduces waste by reusing your existing cabinets. Our team is experienced in refinishing various types of cabinets, including wood, laminate, and MDF. We take pride in our attention to detail and strive to deliver exceptional results that will transform your space.",
+        "process": [
+          "Step 1: Cabinet Removal and Cleaning - We'll remove cabinet doors and drawers and thoroughly clean all surfaces.",
+          "Step 2: Sanding and Priming - We'll sand and prime the cabinets to ensure proper adhesion.",
+          "Step 3: Painting or Staining - We'll apply your chosen paint or stain to the cabinets.",
+          "Step 4: Hardware Installation and Reassembly - We'll install new hardware (if desired) and reassemble the cabinets."
+        ],
+        "benefits": [
+          "Save money compared to replacing cabinets",
+          "Update your kitchen or bathroom quickly",
+          "Reduce waste by reusing existing cabinets",
+          "Increase the value of your home"
+        ],
+        "faq": [
+          {
+            "question": "How long does cabinet refinishing typically take?",
+            "answer": "Cabinet refinishing typically takes 3-5 days, depending on the size of the kitchen and the complexity of the project. We can provide a more accurate timeline during the initial consultation."
+          },
+          {
+            "question": "Can you refinish laminate cabinets?",
+            "answer": "Yes, we can refinish laminate cabinets. However, the process is slightly different than refinishing wood cabinets and may require special primers and paints."
+          },
+          {
+            "question": "Do I need to empty my cabinets before you start?",
+            "answer": "Yes, we ask that you empty your cabinets before we begin the refinishing process. This will allow us to remove the doors and drawers and prepare the surfaces properly."
+          }
+        ]
+      },
+      {
+        "slug": "drywall-repair",
+        "name": "Drywall Repair",
+        "shortDescription": "Seamless drywall repair services to restore your walls to their original condition.",
+        "description": "From small dings and dents to large holes and water damage, Michelle House Painting provides expert drywall repair services to restore your walls to their original condition. We understand that damaged drywall can detract from the beauty of your home, and we're dedicated to providing seamless repairs that blend seamlessly with your existing walls.\n\nOur process begins with assessing the damage and determining the best course of action. For small repairs, we may simply fill the hole with spackle and sand it smooth. For larger repairs, we may need to cut out the damaged section and replace it with new drywall. We then tape and mud the seams to create a smooth, even surface. Finally, we sand the repaired area and prime it before painting to ensure a seamless finish.\n\nOur team is experienced in repairing all types of drywall damage, including cracks, holes, water damage, and nail pops. We use high-quality materials and techniques to ensure a durable and long-lasting repair. We take pride in our attention to detail and strive to deliver exceptional results that will make your walls look like new again. We are familiar with the older lathe and plaster common in Broad Ripple and Meridian-Kessler homes and can handle those repairs as well.",
+        "process": [
+          "Step 1: Damage Assessment - We'll assess the drywall damage and determine the best repair method.",
+          "Step 2: Repair - We'll repair the drywall using appropriate techniques and materials.",
+          "Step 3: Sanding and Priming - We'll sand the repaired area smooth and apply primer.",
+          "Step 4: Painting - We'll paint the repaired area to match the existing wall color."
+        ],
+        "benefits": [
+          "Restore your walls to their original condition",
+          "Prevent further damage to your home",
+          "Increase the value of your home",
+          "Improve the appearance of your living spaces"
+        ],
+        "faq": [
+          {
+            "question": "How much does drywall repair cost?",
+            "answer": "The cost of drywall repair depends on the size and complexity of the damage. We offer free estimates to assess the damage and provide you with an accurate quote."
+          },
+          {
+            "question": "Can you match the existing paint color?",
+            "answer": "Yes, we can match the existing paint color. We use color-matching technology to ensure a seamless blend with your existing walls."
+          },
+          {
+            "question": "How long does drywall repair take?",
+            "answer": "The duration of drywall repair depends on the size and complexity of the damage. Small repairs can be completed in a few hours, while larger repairs may take a day or two."
+          }
+        ]
+      },
+      {
+        "slug": "deck-staining-sealing",
+        "name": "Deck Staining & Sealing",
+        "shortDescription": "Protect and beautify your deck with our professional staining and sealing services.",
+        "description": "Michelle House Painting offers deck staining and sealing services to protect your deck from the elements and enhance its natural beauty. We understand that your deck is an important part of your outdoor living space, and we're dedicated to providing services that will keep it looking its best for years to come.\n\nOur process begins with thoroughly cleaning your deck to remove any dirt, grime, or mildew. We then sand the surface to create a smooth, even finish. We apply a high-quality stain or sealant that is specifically formulated for exterior use, providing long-lasting protection against the sun, rain, and snow. We offer a variety of stain colors and sealant types to choose from, allowing you to customize the look of your deck.\n\nDeck staining and sealing is an important maintenance task that will extend the life of your deck and prevent costly repairs. It will also enhance the beauty of your deck and make it a more enjoyable space to relax and entertain. Our team is experienced in staining and sealing all types of decks, including wood, composite, and vinyl. We take pride in our attention to detail and strive to deliver exceptional results that will exceed your expectations.",
+        "process": [
+          "Step 1: Deck Cleaning - We'll thoroughly clean your deck to remove dirt, grime, and mildew.",
+          "Step 2: Sanding - We'll sand the deck surface to create a smooth, even finish.",
+          "Step 3: Staining or Sealing - We'll apply a high-quality stain or sealant to protect your deck.",
+          "Step 4: Final Inspection - We'll ensure your satisfaction with the finished product."
+        ],
+        "benefits": [
+          "Protect your deck from the elements",
+          "Extend the life of your deck",
+          "Enhance the beauty of your deck",
+          "Prevent costly repairs"
+        ],
+        "faq": [
+          {
+            "question": "How often should I stain or seal my deck?",
+            "answer": "Typically, you should stain or seal your deck every 1-3 years, depending on the climate and the type of stain or sealant used. Decks in Indianapolis may need more frequent staining or sealing due to the harsh winters and humid summers."
+          },
+          {
+            "question": "What type of stain or sealant do you use?",
+            "answer": "We use high-quality stains and sealants from trusted brands that are specifically formulated for exterior use."
+          },
+          {
+            "question": "Can you stain or seal a composite deck?",
+            "answer": "Yes, we can stain or seal a composite deck. However, the process is slightly different than staining or sealing a wood deck and may require special products."
+          }
+        ]
+      },
+      {
+        "slug": "wallpaper-removal",
+        "name": "Wallpaper Removal",
+        "shortDescription": "Efficient and damage-free wallpaper removal services for a fresh start.",
+        "description": "Michelle House Painting offers professional wallpaper removal services to help you achieve a fresh, clean look in your home. Removing wallpaper can be a time-consuming and challenging task, and it's important to do it properly to avoid damaging your walls. Our team has the experience and expertise to remove wallpaper quickly and efficiently, without causing any damage to your drywall.\n\nOur process begins with preparing the room by covering furniture and flooring to protect them from damage. We then use a wallpaper steamer or chemical solvent to loosen the adhesive and carefully peel the wallpaper from the walls. We take extra care to avoid tearing the drywall or leaving behind any residue. Once the wallpaper is removed, we clean the walls thoroughly and repair any damage, such as cracks or holes. Finally, we prime the walls before painting to ensure a smooth, even finish.\n\nWallpaper removal is a necessary step before painting a room that has wallpaper. It's important to remove the wallpaper completely to ensure that the paint adheres properly and that the finished result is smooth and flawless. Our team is dedicated to providing exceptional wallpaper removal services that will prepare your walls for a fresh coat of paint.",
+        "process": [
+          "Step 1: Room Preparation - We'll prepare the room by covering furniture and flooring.",
+          "Step 2: Wallpaper Removal - We'll use a steamer or solvent to loosen the adhesive and remove the wallpaper.",
+          "Step 3: Wall Cleaning and Repair - We'll clean the walls and repair any damage.",
+          "Step 4: Priming - We'll prime the walls to prepare them for painting."
+        ],
+        "benefits": [
+          "Save time and effort compared to DIY wallpaper removal",
+          "Avoid damaging your walls",
+          "Prepare your walls for painting",
+          "Achieve a fresh, clean look in your home"
+        ],
+        "faq": [
+          {
+            "question": "How long does wallpaper removal take?",
+            "answer": "The duration of wallpaper removal depends on the size of the room and the type of wallpaper. We can provide a more accurate timeline during the initial consultation."
+          },
+          {
+            "question": "Will wallpaper removal damage my walls?",
+            "answer": "If done improperly, wallpaper removal can damage your walls. That's why it's important to hire a professional like Michelle House Painting who has the experience and expertise to remove wallpaper safely and efficiently."
+          },
+          {
+            "question": "Do I need to do anything to prepare for wallpaper removal?",
+            "answer": "We ask that you remove any pictures or decorations from the walls before we begin the wallpaper removal process. We will take care of covering the furniture and flooring to protect them from damage."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Carmel",
+        "slug": "carmel-in",
+        "state": "IN",
+        "content": "Michelle House Painting is proud to offer our professional painting services to the residents of Carmel, Indiana. We understand the unique character of Carmel, from its upscale 1980s and 2000s developments to its beautiful neighborhoods. Our team is experienced in handling a wide range of painting projects, ensuring a flawless finish that complements the architectural style of your home. We are committed to providing exceptional service and lasting results.\n\nWe know that Carmel winters can be tough, with cold temperatures, snow, and ice. That's why we use high-quality paints and materials designed to withstand the elements and protect your home's exterior. Whether you're looking to refresh your interior or give your home a complete exterior makeover, Michelle House Painting is the trusted choice for Carmel residents.",
+        "localContext": "Carmel is known for its upscale neighborhoods, excellent schools, and vibrant arts scene, making it a desirable place to live.",
+        "nearbyAreas": [
+          "Westfield",
+          "Zionsville",
+          "Indianapolis"
+        ]
+      },
+      {
+        "city": "Fishers",
+        "slug": "fishers-in",
+        "state": "IN",
+        "content": "Michelle House Painting is delighted to serve the growing community of Fishers, Indiana. We recognize the prevalence of newer, planned communities built from the 1990s through the 2020s in Fishers. Our painters are skilled in working with various architectural styles and materials commonly found in these neighborhoods. We're dedicated to providing top-notch painting services that enhance the beauty and value of your Fishers home.\n\nFishers experiences cold winters, so we prioritize using durable paints that can withstand the harsh weather. From preparing surfaces to applying the final coat, we pay close attention to detail to ensure a long-lasting and beautiful finish. Choose Michelle House Painting for all your painting needs in Fishers.",
+        "localContext": "Fishers is a family-friendly city with a thriving economy and numerous parks and recreational opportunities.",
+        "nearbyAreas": [
+          "Noblesville",
+          "McCordsville",
+          "Indianapolis"
+        ]
+      },
+      {
+        "city": "Noblesville",
+        "slug": "noblesville-in",
+        "state": "IN",
+        "content": "Michelle House Painting is proud to provide painting services to the residents of Noblesville, Indiana. We appreciate the historical charm of Noblesville, particularly the homes surrounding the historic Courthouse Square. Our team has experience working on older homes, understanding the unique challenges and requirements they present. We are committed to preserving the character of your home while providing a fresh, updated look.\n\nNoblesville winters can be demanding on exterior paint, so we use premium products designed for the Indiana climate. Whether you're looking to restore your historic home or simply update your interior, Michelle House Painting is the experienced and reliable choice for Noblesville residents. We'll handle your project with care and precision.",
+        "localContext": "Noblesville boasts a rich history, a vibrant downtown area, and a strong sense of community.",
+        "nearbyAreas": [
+          "Fishers",
+          "Carmel",
+          "Cicero"
+        ]
+      },
+      {
+        "city": "Indianapolis",
+        "slug": "indianapolis-in",
+        "state": "IN",
+        "content": "Michelle House Painting is your premier choice for painting services throughout Indianapolis, Indiana. As a local company, we understand the diverse architectural styles and unique needs of homeowners across the city. Whether you reside in a historic neighborhood or a modern development, our experienced team is equipped to handle any painting project, big or small.\n\nIndianapolis experiences a wide range of weather conditions, so we use only the highest quality paints and materials to ensure a long-lasting and beautiful finish. From interior painting to exterior renovations, we are committed to providing exceptional service and exceeding your expectations. Let Michelle House Painting transform your Indianapolis home.",
+        "localContext": "Indianapolis is a bustling metropolis with a rich cultural history and a thriving arts scene.",
+        "nearbyAreas": [
+          "Carmel",
+          "Fishers",
+          "Greenwood"
+        ]
+      },
+      {
+        "city": "Zionsville",
+        "slug": "zionsville-in",
+        "state": "IN",
+        "content": "Michelle House Painting proudly serves Zionsville, Indiana, providing top-quality painting services to homeowners in this charming town. We understand the unique character of Zionsville, known for its quaint village atmosphere and beautiful homes. Our team is experienced in working with a variety of architectural styles and is committed to providing exceptional results that enhance the beauty and value of your property.\n\nZionsville's climate includes cold winters, so we use durable paints designed to withstand the elements and protect your home. Whether you're looking to update your interior or refresh your exterior, Michelle House Painting is the trusted choice for Zionsville residents. We are dedicated to providing personalized service and exceeding your expectations.",
+        "localContext": "Zionsville offers a small-town feel with excellent schools and a strong sense of community.",
+        "nearbyAreas": [
+          "Carmel",
+          "Whitestown",
+          "Brownsburg"
+        ]
+      },
+      {
+        "city": "Westfield",
+        "slug": "westfield-in",
+        "state": "IN",
+        "content": "Michelle House Painting is pleased to offer its professional painting services to the growing community of Westfield, Indiana. We are familiar with the various neighborhoods and housing styles in Westfield, from established areas to newer developments. Our team is equipped to handle any painting project, ensuring a flawless finish that complements your home's architectural style.\n\nWe understand that Westfield experiences cold winters with snow and ice. That's why we use high-quality paints and materials that are designed to withstand the elements and protect your home's exterior. Whether you're looking to refresh your interior or give your home a complete exterior makeover, Michelle House Painting is the trusted choice for Westfield residents.",
+        "localContext": "Westfield is a rapidly growing city with excellent schools, parks, and recreational facilities.",
+        "nearbyAreas": [
+          "Carmel",
+          "Sheridan",
+          "Noblesville"
+        ]
+      },
+      {
+        "city": "Greenwood",
+        "slug": "greenwood-in",
+        "state": "IN",
+        "content": "Michelle House Painting is proud to offer our painting services to the residents and businesses of Greenwood, Indiana. We understand the diverse needs of this growing community and are committed to providing exceptional service and quality workmanship. Whether you're looking to refresh your home's interior, update your commercial space, or protect your exterior from the elements, we've got you covered.\n\nWe know that Greenwood experiences all four seasons, including cold winters. That's why we use durable, weather-resistant paints and materials to ensure a long-lasting finish. Our team is experienced in handling a wide range of painting projects, and we're dedicated to exceeding your expectations.",
+        "localContext": "Greenwood is a thriving city with a strong economy, excellent schools, and numerous shopping and dining options.",
+        "nearbyAreas": [
+          "Indianapolis",
+          "Beech Grove",
+          "Franklin"
+        ]
+      },
+      {
+        "city": "Lawrence",
+        "slug": "lawrence-in",
+        "state": "IN",
+        "content": "Michelle House Painting is delighted to serve the community of Lawrence, Indiana, providing professional and reliable painting services. We are familiar with the diverse neighborhoods and housing styles in Lawrence, and we are committed to delivering exceptional results that meet your specific needs. From interior painting to exterior renovations, we take pride in our attention to detail and our dedication to customer satisfaction.\n\nLawrence experiences cold winters and warm summers, so we use high-quality paints and materials that are designed to withstand the elements and protect your investment. Whether you're looking to update your home's appearance or enhance its value, Michelle House Painting is the trusted choice for Lawrence residents.",
+        "localContext": "Lawrence is a vibrant city with a rich history and a diverse population, offering a variety of cultural and recreational opportunities.",
+        "nearbyAreas": [
+          "Indianapolis",
+          "Fishers",
+          "McCordsville"
+        ]
+      },
+      {
+        "city": "Brownsburg",
+        "slug": "brownsburg-in",
+        "state": "IN",
+        "content": "Michelle House Painting is pleased to offer our painting services to the residents of Brownsburg, Indiana. We understand the charm and community spirit of Brownsburg, and we are committed to providing exceptional service and quality workmanship that enhances the beauty of your home. Whether you're looking to update your interior, refresh your exterior, or add a splash of color to your living space, we're here to help.\n\nBrownsburg experiences cold winters and warm summers, so we use durable, weather-resistant paints and materials that are designed to withstand the elements. Our team is experienced in handling a wide range of painting projects, and we're dedicated to exceeding your expectations.",
+        "localContext": "Brownsburg is a family-friendly town with excellent schools, parks, and recreational facilities.",
+        "nearbyAreas": [
+          "Avon",
+          "Plainfield",
+          "Zionsville"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Interior Painting",
+        "text": "Michelle's team did an amazing job painting our living room and hallway! They were professional, efficient, and the finished product looks fantastic. Highly recommend!",
+        "date": "2024-07-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Exterior Painting",
+        "text": "We hired Michelle House Painting to paint our house in Broad Ripple. The crew was punctual, worked hard, and the house looks great. There were a couple of minor touch-ups needed, but they came back promptly and took care of it. Good value for the price.",
+        "date": "2024-08-02"
+      },
+      {
+        "name": "Jessica L.",
+        "rating": 5,
+        "service": "Cabinet Refinishing",
+        "text": "I was amazed at how Michelle's team transformed my outdated kitchen cabinets! They look brand new. The price was much better than replacing them, and the quality is excellent. Thank you!",
+        "date": "2024-09-10"
+      },
+      {
+        "name": "Tom B.",
+        "rating": 5,
+        "service": "Drywall Repair",
+        "text": "We had a large hole in our drywall from a water leak. Michelle's team repaired it seamlessly. You can't even tell there was ever a hole there. Very professional and reasonably priced.",
+        "date": "2024-10-25"
+      },
+      {
+        "name": "Ashley P.",
+        "rating": 4,
+        "service": "Deck Staining & Sealing",
+        "text": "Michelle's team did a great job staining our deck. They were very careful and thorough, and the deck looks beautiful. I would definitely recommend them.",
+        "date": "2024-11-18"
+      },
+      {
+        "name": "Kevin R.",
+        "rating": 5,
+        "service": "Interior Painting",
+        "text": "After getting quotes from several painting companies, we chose Michelle House Painting. They were able to complete the work quickly and at a price that was very competitive. The painters were friendly, professional and did a great job.",
+        "date": "2025-01-05"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Indianapolis House Painter | Michelle Painting",
+        "description": "Professional house painting services in Indianapolis. Interior, exterior, cabinets, drywall repair. Free quotes!"
+      },
+      "about": {
+        "title": "About Us | Michelle House Painting",
+        "description": "Learn about Michelle House Painting in Indianapolis, our values, and commitment to quality service."
+      },
+      "services": {
+        "title": "Painting Services | Michelle House Painting",
+        "description": "Interior & exterior painting, cabinet refinishing, drywall repair & more. Indianapolis' trusted painters."
+      },
+      "contact": {
+        "title": "Contact | Michelle House Painting",
+        "description": "Get a free quote for house painting services in Indianapolis. Call or email Michelle House Painting today!"
+      },
+      "reviews": {
+        "title": "Reviews | Michelle House Painting",
+        "description": "See what our Indianapolis customers are saying about Michelle House Painting. Read our 5-star reviews!"
+      },
+      "service-areas": {
+        "title": "Service Areas | Michelle House Painting",
+        "description": "Michelle House Painting provides painting services in Indianapolis, Carmel, Fishers, and Noblesville."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "interior-painting": "/images/service-interior-painting.webp",
+      "exterior-painting": "/images/service-exterior-painting.webp",
+      "cabinet-refinishing": "/images/service-cabinet-refinishing.webp",
+      "drywall-repair": "/images/service-drywall-repair.webp",
+      "deck-staining-sealing": "/images/service-deck-staining-sealing.webp",
+      "wallpaper-removal": "/images/service-wallpaper-removal.webp"
+    },
+    "servicesResponsive": {
+      "interior-painting": {
+        "src": "/images/service-interior-painting.webp",
+        "srcset": "/images/service-interior-painting-400w.webp 400w, /images/service-interior-painting-800w.webp 800w, /images/service-interior-painting-1200w.webp 1200w, /images/service-interior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "exterior-painting": {
+        "src": "/images/service-exterior-painting.webp",
+        "srcset": "/images/service-exterior-painting-400w.webp 400w, /images/service-exterior-painting-800w.webp 800w, /images/service-exterior-painting-1200w.webp 1200w, /images/service-exterior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "cabinet-refinishing": {
+        "src": "/images/service-cabinet-refinishing.webp",
+        "srcset": "/images/service-cabinet-refinishing-400w.webp 400w, /images/service-cabinet-refinishing-800w.webp 800w, /images/service-cabinet-refinishing-1200w.webp 1200w, /images/service-cabinet-refinishing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drywall-repair": {
+        "src": "/images/service-drywall-repair.webp",
+        "srcset": "/images/service-drywall-repair-400w.webp 400w, /images/service-drywall-repair-800w.webp 800w, /images/service-drywall-repair-1200w.webp 1200w, /images/service-drywall-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-staining-sealing": {
+        "src": "/images/service-deck-staining-sealing.webp",
+        "srcset": "/images/service-deck-staining-sealing-400w.webp 400w, /images/service-deck-staining-sealing-800w.webp 800w, /images/service-deck-staining-sealing-1200w.webp 1200w, /images/service-deck-staining-sealing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "wallpaper-removal": {
+        "src": "/images/service-wallpaper-removal.webp",
+        "srcset": "/images/service-wallpaper-removal-400w.webp 400w, /images/service-wallpaper-removal-800w.webp 800w, /images/service-wallpaper-removal-1200w.webp 1200w, /images/service-wallpaper-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
